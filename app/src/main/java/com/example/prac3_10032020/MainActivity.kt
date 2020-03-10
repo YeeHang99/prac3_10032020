@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity() {
 
         for (item in clickableViews) {
             item.setOnClickListener { makeColored(it) }
+            //testing one
     }
         }
 }
